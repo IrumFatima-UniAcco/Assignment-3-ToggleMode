@@ -1,0 +1,149 @@
+body {
+    font-family: Arial;
+    background-color: white;
+    color: #3b2a20;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main large box */
+.box {
+    background-color: #fff8ef;
+    border: 1px solid #d8c8ba;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+
+    /* Light shadow */
+    box-shadow: 0 2px 8px #dddddd;
+}
+
+/* Header */
+.header {
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #e0d5cc;
+    padding-bottom: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: #70452b;
+}
+
+/* Other headings */
+h2 {
+    color: #805536;
+}
+
+/* Light/Dark button */
+#themeBtn {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+/* All buttons */
+button {
+    background-color: #805536;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #70452b;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Table cells */
+th,
+td {
+    border: 1px solid #d8c8ba;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Table heading */
+th {
+    background-color: #ead9c9;
+}
+
+/* Form box */
+form {
+    border: 1px solid #d8c8ba;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Input boxes */
+input,
+textarea {
+    padding: 8px;
+    margin: 8px;
+}
+
+/* Text area */
+textarea {
+    width: 300px;
+    height: 70px;
+}
+
+.hidden {
+    display: none;
+}
+
+.dark-mode {
+    background-color: #222222;
+    color: white;
+}
+
+.dark-mode .box {
+    background-color: #333333;
+    border-color: #555555;
+    box-shadow: 0 2px 8px #111111;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+    color: #f2c99f;
+}
+
+.dark-mode th {
+    background-color: #444444;
+}
+
+.dark-mode td,
+.dark-mode th {
+    border-color: gray;
+}
+
+.dark-mode button {
+    background-color: #c49a6c;
+    color: black;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #444444;
+    color: white;
+}

@@ -1,0 +1,119 @@
+body {
+    background-color: #faf6f0;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6f4e37;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #3e2723;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.home,.About,.menu,.Specials,.contact {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #6f4e37;
+    border-bottom: 2px solid #deb887;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #3e2723;
+}
+
+.home img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 15px auto;
+}
+
+.About ol {
+    margin-left: 25px;
+}
+
+.menu article {
+    background-color: #faf6f0;
+    border-left: 4px solid #6f4e37;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.menu strong {
+    color: #6f4e37;
+}
+
+.Specials table {
+    width: 100%;
+}
+
+.Specials th,.Specials td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+.Specials th {
+    background-color: #6f4e37;
+    color: white;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    background-color: #6f4e37;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #edebe7;
+    text-decoration: none;
+}
